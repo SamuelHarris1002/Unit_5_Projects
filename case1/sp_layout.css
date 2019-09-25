@@ -49,19 +49,30 @@ body header{
 header nav{
    float:left;
    width:30%;
-   padding-left:3%;
-   padding-right:3%;
+   padding-left:2%;
+   padding-right:2%;
+}
 
+header nav a{
+   display:block;
+   width:100%;
 }
 /* Horizontal Navigation List Styles */
-
-
+nav.horizontalli{
+   display: block;
+   width: 12.5%;
+}
 
 
 /* Topics Styles */
 
-
-
+ul#topics{
+   display:block;
+   width:20%;
+   float:left;
+   margin-left:0%;
+   margin-left:1.5%;
+}
 
 
 
