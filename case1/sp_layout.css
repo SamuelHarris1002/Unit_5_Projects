@@ -25,23 +25,34 @@ Body{
    margin-left:auto;
    margin-right:auto;
 }
-border-box{
-   
+header, ul, nav, li{
+   box-sizing:border-box;
 }
 
 /* Row Styles */
 
-
-
+.row::after{
+   clear:both;
+   content: "";
+   display:table;
+}
 
 
 /* Page Header Styles */
 
+body header{
+   display:block;
+   width:70%;
+   margin:left;
+}
 
+header nav{
+   float:left;
+   width:30%;
+   padding-left:3%;
+   padding-right:3%;
 
-
-
-
+}
 /* Horizontal Navigation List Styles */
 
 
